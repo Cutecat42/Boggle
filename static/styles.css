@@ -1,0 +1,64 @@
+.board {
+	margin: 65px;
+	width: 50vw;
+	height: 50vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	background: rgb(63, 94, 251);
+	background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+	text-align: center;
+}
+
+table,
+th,
+td {
+	border: 1px solid black;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+tr {
+	text-align: center;
+}
+
+.wns {
+	border: 1px solid black;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+ul {
+	list-style-type: none;
+	margin-right: 50px;
+}
+.restart {
+	margin: 20px;
+}
+
+h1 {
+	margin: 50px;
+	font-size: 3rem;
+}
+
+.starting {
+	margin: 0px;
+	width: 50vw;
+	height: 50vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+html {
+	height: 100%;
+}
+
+.startB {
+	margin-top: 40vh;
+}

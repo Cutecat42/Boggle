@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<section id="boggle">
+
+  <h1>ⒷⓄⒼⒼⓁⒺ</h1>
+
+    <table class="board">
+      <tbody>
+        {% for row in board %}
+        <tr>
+          {% for cell in row %}
+          <td>{{ cell }}</td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <form class="remove">
+        <label for="guess">Make a guess:</label>
+        <input type="text" id="guess">
+        <button>Submit</button>
+    </form>
+
+<section class="wns">
+
+  <div>
+    <h3>Words:</h3>
+    <ul class="words">
+
+    </ul>
+  </div>
+
+  <div>
+    <h3>Score:</h3>
+    <p class="score"></p>
+  </div>
+
+</section>
+
+</section>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="/static/app.js"></script>
+{% endblock %}
